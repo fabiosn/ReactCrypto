@@ -2,7 +2,7 @@
 
 Este repositório contém o material de apoio e o código da aplicação ReactCrypto, desenvolvida durante o workshop de React.
 
-## Agenda
+# Agenda
 
 Serão três sessões, todas com duração de aproximadamente 2 horas, dividas em:
 
@@ -21,3 +21,14 @@ Serão três sessões, todas com duração de aproximadamente 2 horas, dividas e
     - State;
     - Ciclo de vida dos componentes;
     - Formulários;
+
+2. Segunda sessão: durante a segunda sessão, dividiremos a funcionalidade da aplicação em páginas distintas, usando o pacote React Router para criar uma Single Page Application (SPA). Para facilitar a gestão do estado da aplicação, utilizaremos a arquitetura flux. Tópicos da sessão:
+
+    - Rotas básicas;
+    - Rotas parametrizadas;
+    - Transições;
+    - Fluxo de dados;
+    - Dispatchers;
+    - Stores;
+    - Actions;
+    - Views;
