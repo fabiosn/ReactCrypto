@@ -32,3 +32,13 @@ Serão três sessões, todas com duração de aproximadamente 2 horas, dividas e
     - Stores;
     - Actions;
     - Views;
+    
+3. Terceira sessão: na terceira sessão, entenderemos como testar nossa aplicação React. Vamos usar algumas ferramentas para testes em javascript e configurar nossa aplicação para as mesmas. Tópicos da sessão:
+
+    - Ferramentas de teste para Javascript/React:
+        - Jest
+        - Enzyme
+        - Mocha
+    - Configurando a aplicação;
+    - Testando components;
+    - Testando as Interações do Usuário;
