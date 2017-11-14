@@ -1,0 +1,24 @@
+{
+  "name": "ReactCrypto",
+  "version": "1.0.0",
+  "description": "Este repositório contém o material de apoio e o código da aplicação ReactCrypto, desenvolvida durante o workshop de React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiosn/ReactCrypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiosn/ReactCrypto/issues"
+  },
+  "homepage": "https://github.com/fabiosn/ReactCrypto#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
