@@ -1,1 +1,1 @@
-console.log('ReactCrypto')
+import App from "./components/App.jsx";
