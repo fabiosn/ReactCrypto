@@ -7,7 +7,14 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "dist")
+    contentBase: path.resolve(__dirname, "dist"),
+    proxy: {
+      "/api": {
+        target: "https://api.coinmarketcap.com/v1/ticker/",
+        changeOrigin: true,
+        pathRewrite: { "^/api": "" }
+      }
+    }
   },
   devtool: 'eval-source-map',
   module: {
